@@ -1,0 +1,44 @@
+%%% Работа с русским языком
+%\usepackage{cmap}					% поиск в PDF
+%\usepackage{mathtext} 				% русские буквы в фомулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+\usepackage{extsizes} % Возможность сделать 14-й шрифт
+\usepackage{indentfirst}
+% \frenchspacing
+\usepackage{setspace} % Интерлиньяж
+\onehalfspacing % Интерлиньяж 1.5
+\usepackage{geometry} % Простой способ задавать поля
+	\geometry{top=30mm}
+	\geometry{bottom=40mm}
+	\geometry{left=30mm}
+	\geometry{right=20mm}
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+\usepackage{enumitem}
+
+%%% Работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\usepackage{longtable}  % Длинные таблицы
+\usepackage{multirow} % Слияние строк в таблице
+
+%%%%%%%%%%
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
+\definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
+ 
+\hypersetup{%
+    pdfstartview=FitH,%
+    linkcolor=blue,%
+    urlcolor=cyan,%
+    colorlinks=true}
+
+\usepackage{multicol} % Несколько колонок
+\usepackage{graphicx}
+\usepackage{babel,blindtext}
+\usepackage{float}

@@ -65,8 +65,10 @@
 
 \usepackage{csquotes} % Инструменты для ссылок
 
-\usepackage[backend=biber,bibencoding=utf8,sorting=ynt,maxcitenames=2,style=authoryear]{biblatex}
+\usepackage[backend=biber,bibencoding=utf8,sorting=ynt,maxcitenames=2,style=authoryear,autocite=inline]{biblatex}
 
 \usepackage[most]{tcolorbox} % для управления цветом
 \definecolor{block-gray}{gray}{0.90} % уровень прозрачности (1 - максимум)
 \newtcolorbox{grayquote}{colback=block-gray,grow to right by=-10mm,grow to left by=-10mm, boxrule=0pt,boxsep=0pt,breakable} % настройки области с изменённым фоном
+
+\usepackage[normalem]{ulem} 

@@ -28,17 +28,45 @@
 
 %%%%%%%%%%
 \usepackage{hyperref}
-\usepackage{xcolor}
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}
 \definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
 \definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
  
 \hypersetup{%
     pdfstartview=FitH,%
     linkcolor=blue,%
-    urlcolor=cyan,%
+    citecolor=black,
     colorlinks=true}
+
+
+%\hypersetup{				% Гиперссылки
+%	unicode=true,           % русские буквы в раздела PDF
+%	pdftitle={Заголовок},   % Заголовок
+%	pdfauthor={Автор},      % Автор
+%	pdfsubject={Тема},      % Тема
+%	pdfcreator={Создатель}, % Создатель
+%	pdfproducer={Производитель}, % Производитель
+%	pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+%	colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+%	linkcolor=red,          % внутренние ссылки
+%	citecolor=black,        % на библиографию
+%	filecolor=magenta,      % на файлы
+%	urlcolor=cyan           % на URL
+%}
+
 
 \usepackage{multicol} % Несколько колонок
 \usepackage{graphicx}
 \usepackage{babel,blindtext}
 \usepackage{float}
+
+\usepackage{epigraph}
+\setlength\epigraphwidth{.6\textwidth}
+
+\usepackage{csquotes} % Инструменты для ссылок
+
+\usepackage[backend=biber,bibencoding=utf8,sorting=ynt,maxcitenames=2,style=authoryear]{biblatex}
+
+\usepackage[most]{tcolorbox} % для управления цветом
+\definecolor{block-gray}{gray}{0.90} % уровень прозрачности (1 - максимум)
+\newtcolorbox{grayquote}{colback=block-gray,grow to right by=-10mm,grow to left by=-10mm, boxrule=0pt,boxsep=0pt,breakable} % настройки области с изменённым фоном

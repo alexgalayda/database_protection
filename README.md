@@ -27,7 +27,7 @@ smb://93.175.7.125/incoming/!Учёба/безопасность
 | Механизмы обеспечения конфиденциальности в СУБД | Антон | :white_check_mark: | :x: | :x: |
 | Механизмы, поддерживающие высокую готовность    | Karina | :poop: | :heavy_check_mark: | :white_check_mark: |
 | Защита данных в распределенных системах         | Vasya | :poop: | :heavy_check_mark: | :white_check_mark: |
-| Безопасность в статистических БД                | :x: | :white_check_mark: | :x: | :x: |
+| Безопасность в статистических БД                | Рома | :white_check_mark: | :heavy_check_mark: | :x: |
 | Распознавание вторжений в БД                    | :x: | :white_check_mark: | :x: | :x: |
 | Проектирование безопасности БД                  | :x: | :white_check_mark: | :x: | :x: |
 

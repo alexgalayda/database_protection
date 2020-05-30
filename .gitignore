@@ -4,3 +4,7 @@
 !*.pdf
 !*.md
 !old.docx
+!assets/
+!Makefile
+!Dockerfile
+*DS_Store

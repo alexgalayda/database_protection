@@ -10,3 +10,6 @@ clean:
 docker:
 	docker build -f Dockerfile -t latex_img .
 	docker run -it -v ${PWD}:/root/ans:Z --rm --name latex_doc latex_img
+docker_test:
+	docker build -f Dockerfile -t latex_img .
+	docker run -it -v ${PWD}:/root/ans:Z --rm --name latex_doc latex_img bash

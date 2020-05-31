@@ -15,5 +15,9 @@ jobs:
     steps:
     - name: install biber
       run: apt-get update && apt-get install -y biber
+    - name: ci test
+      run: ls
+    - name: ci test2
+      run: pwd
     - name: build pdf
       run: latexmk -pdf db.tex

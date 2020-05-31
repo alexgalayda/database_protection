@@ -1,8 +1,9 @@
 /*
 !*.tex
 !*.bib
-!*.pdf
 !*.md
 !old.docx
 !assets/
+!Makefile
+!Dockerfile
 *DS_Store

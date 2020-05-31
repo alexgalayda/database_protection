@@ -30,7 +30,7 @@ smb://93.175.7.125/incoming/!Учёба/безопасность
 | Механизмы, поддерживающие высокую готовность    | Karina | :poop: | :heavy_check_mark: | :white_check_mark: |
 | Защита данных в распределенных системах         | Vasya | :poop: | :heavy_check_mark: | :white_check_mark: |
 | Безопасность в статистических БД                | Рома | :poop: | :heavy_check_mark: | :white_check_mark: |
-| Распознавание вторжений в БД                    | :x: | :white_check_mark: | :x: | :x: |
+| Распознавание вторжений в БД                    | Даня | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
 | Проектирование безопасности БД                  | :x: | :white_check_mark: | :x: | :x: |
 
 ### Текущие итоги: Господи помилуй

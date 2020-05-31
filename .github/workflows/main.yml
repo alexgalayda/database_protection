@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    container: blang/latex
+    steps:
+    - name: install biber
+      run: apt-get update && apt-get install -y biber
+    - name: build pdf
+      run: latexmk -pdf db.tex

@@ -24,8 +24,8 @@ smb://93.175.7.125/incoming/!Учёба/безопасность
 | Тема | Имя | Наработки | Сделано | Принято |
 | :--- | :-: | :--------:| :-----: | :-----: |
 | Концепция безопасности БД                       | Саша | :poop: | :heavy_check_mark: | :heavy_check_mark: |
-| Теоретические основы безопасности в СУБД        | Антон | :white_check_mark: | :x: | :x: |
-| Механизмы обеспечения целостности СУБД          | Леша | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Теоретические основы безопасности в СУБД        | Дима | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| Механизмы обеспечения целостности СУБД          | Леша | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
 | Механизмы обеспечения конфиденциальности в СУБД | Антон | :white_check_mark: | :x: | :x: |
 | Механизмы, поддерживающие высокую готовность    | Karina | :poop: | :heavy_check_mark: | :white_check_mark: |
 | Защита данных в распределенных системах         | Vasya | :poop: | :heavy_check_mark: | :white_check_mark: |

@@ -24,16 +24,16 @@ smb://93.175.7.125/incoming/!Учёба/безопасность
 | Тема | Имя | Наработки | Сделано | Принято |
 | :--- | :-: | :--------:| :-----: | :-----: |
 | Концепция безопасности БД                       | Саша | :poop: | :heavy_check_mark: | :heavy_check_mark: |
-| Теоретические основы безопасности в СУБД        | Дима | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
-| Механизмы обеспечения целостности СУБД          | Леша | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
-| Механизмы обеспечения конфиденциальности в СУБД | Антон | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
-| Механизмы, поддерживающие высокую готовность    | Karina | :poop: | :heavy_check_mark: | :white_check_mark: |
-| Защита данных в распределенных системах         | Vasya | :poop: | :heavy_check_mark: | :white_check_mark: |
-| Безопасность в статистических БД                | Рома | :poop: | :heavy_check_mark: | :white_check_mark: |
-| Распознавание вторжений в БД                    | Даня | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| Теоретические основы безопасности в СУБД        | Дима | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Механизмы обеспечения целостности СУБД          | Леша | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Механизмы обеспечения конфиденциальности в СУБД | Антон | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Механизмы, поддерживающие высокую готовность    | Karina | :poop: | :heavy_check_mark: | :heavy_check_mark: |
+| Защита данных в распределенных системах         | Vasya | :poop: | :heavy_check_mark: | :heavy_check_mark: |
+| Безопасность в статистических БД                | Рома | :poop: | :heavy_check_mark: | :heavy_check_mark: |
+| Распознавание вторжений в БД                    | Даня | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Проектирование безопасности БД                  | :x: | :white_check_mark: | :x: | :x: |
 
-### Текущие итоги: Господи помилуй
+### Текущие итоги: Сдано. Удачи тем, кто будет после нас)
 
 ## Заметки
 * Если не знаете как пользоваться bibtex, то просто укажите источник в скобках, я сделаю как надо уже потом
